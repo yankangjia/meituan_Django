@@ -195,6 +195,8 @@ class AlipayCallbackView(views.APIView):
     def post(self,request):
         data = request.data
         alipay_data = dict(list(data.items()))
+        print('=====================================')
+        print(alipay_data)
         signature = alipay_data.pop('sign')
         alipay = AliPay(
             appid="2016102000727796",
@@ -205,7 +207,7 @@ class AlipayCallbackView(views.APIView):
             sign_type="RSA2",  # RSA 或者 RSA2
             debug=True  # 默认False
         )
-        success = alipay.verify(data,signature)
+        success = alipay.verify(alipay_data,signature)
         if success and alipay_data["trade_status"] in ("TRADE_SUCCESS", "TRADE_FINISHED" ):
             order_id = alipay_data.get('out_trade_no')
             order = models.Order.objects.get(pk=order_id)

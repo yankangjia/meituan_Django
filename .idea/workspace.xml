@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="181" column="54" selection-start-line="181" selection-start-column="54" selection-end-line="181" selection-end-column="54" />
+            <state relative-caret-position="149">
+              <caret line="197" column="52" selection-start-line="197" selection-start-column="52" selection-end-line="197" selection-end-column="52" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
                 <element signature="e#777#827#0" />
@@ -60,7 +60,6 @@
                 <element signature="e#5065#5319#0" />
                 <element signature="e#5885#5944#0" />
                 <element signature="e#6782#6796#0" />
-                <element signature="e#7574#8726#0" />
               </folding>
             </state>
           </provider>
@@ -291,12 +290,12 @@
       <workItem from="1580701581274" duration="4937000" />
       <workItem from="1580784375516" duration="3746000" />
       <workItem from="1580873274290" duration="14288000" />
-      <workItem from="1580966177866" duration="13337000" />
+      <workItem from="1580966177866" duration="13896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98709000" />
+    <option name="totallyTimeSpent" value="99268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -328,17 +327,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/apps/h5/views.py</url>
-          <line>142</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Envs/django_env/Lib/site-packages/django/core/handlers/exception.py">
@@ -940,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="181" column="54" selection-start-line="181" selection-start-column="54" selection-end-line="181" selection-end-column="54" />
+        <state relative-caret-position="149">
+          <caret line="197" column="52" selection-start-line="197" selection-start-column="52" selection-end-line="197" selection-end-column="52" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
             <element signature="e#777#827#0" />
@@ -970,7 +958,6 @@
             <element signature="e#5065#5319#0" />
             <element signature="e#5885#5944#0" />
             <element signature="e#6782#6796#0" />
-            <element signature="e#7574#8726#0" />
           </folding>
         </state>
       </provider>
