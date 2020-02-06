@@ -15,6 +15,7 @@ from rest_framework.decorators import action
 from rest_framework.pagination import PageNumberPagination
 from alipay import AliPay
 from django.conf import settings
+from django.shortcuts import redirect,reverse
 
 User = get_user_model()
 
@@ -177,10 +178,39 @@ class OrderView(views.APIView):
                 out_trade_no=order.pk,
                 total_amount=str(order.total_price), # str(Decimal) => JSON
                 subject='外卖',
-                return_url=None,
-                notify_url=None  # 可选, 不填则使用默认notify url
+                return_url=request.build_absolute_uri(request.reverse('h5:callback')), # get
+                notify_url=request.build_absolute_uri(request.reverse('h5:callback'))  # post 可选, 不填则使用默认notify url
             )
             pay_url = 'https://openapi.alipaydev.com/gateway.do?' + order_string
             return Response({'pay_url':pay_url})
         else:
             return Response({'message':dict(serializer.errors)},status=status.HTTP_400_BAD_REQUEST)
+
+class AlipayCallbackView(views.APIView):
+    # 支付完成跳转
+    def get(self,request):
+        return redirect('/')
+    # 支付完成通知
+    def post(self,request):
+        data = request.data
+        alipay_data = dict(list(data.items()))
+        signature = alipay_data.pop('sign')
+        alipay = AliPay(
+            appid="2016102000727796",
+            app_notify_url=None,  # 默认回调url
+            app_private_key_string=open(os.path.join(settings.BASE_DIR, 'keys', 'app_private_key.txt'), 'r').read(),
+            # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
+            alipay_public_key_string=open(os.path.join(settings.BASE_DIR, 'keys', 'alipay_public_key.txt'), 'r').read(),
+            sign_type="RSA2",  # RSA 或者 RSA2
+            debug=True  # 默认False
+        )
+        success = alipay.verify(data,signature)
+        if success and alipay_data["trade_status"] in ("TRADE_SUCCESS", "TRADE_FINISHED" ):
+            order_id = alipay_data.get('out_trade_no')
+            order = models.Order.objects.get(pk=order_id)
+            order.pay_method = 2
+            order.order_status = 2
+            order.save()
+            return Response()
+        else:
+            return Response({'message':'订单支付失败！'},status=status.HTTP_400_BAD_REQUEST)

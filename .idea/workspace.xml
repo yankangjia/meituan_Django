@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/meituan/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="83" column="32" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="32" />
+            <state relative-caret-position="371">
+              <caret line="81" column="16" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="16" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -27,13 +28,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="176" column="28" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="28" />
+            <state relative-caret-position="421">
+              <caret line="181" column="94" selection-start-line="181" selection-start-column="94" selection-end-line="181" selection-end-column="94" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
+                <element signature="e#777#827#0" />
+                <element signature="e#867#1980#0" />
+                <element signature="e#999#1278#0" />
+                <element signature="e#1321#1369#0" />
+                <element signature="e#1406#1980#0" />
+                <element signature="e#1673#1745#0" />
+                <element signature="e#2019#2957#0" />
+                <element signature="e#2053#2142#0" />
+                <element signature="e#2180#2957#0" />
+                <element signature="e#2274#2837#0" />
+                <element signature="e#2362#2474#0" />
+                <element signature="e#2511#2661#0" />
+                <element signature="e#3011#3055#0" />
+                <element signature="e#3189#3325#0" />
+                <element signature="e#3327#3352#0" />
+                <element signature="e#3439#3903#0" />
+                <element signature="e#3728#3903#0" />
+                <element signature="e#3957#4296#0" />
+                <element signature="e#4043#4061#0" />
+                <element signature="e#4347#5319#0" />
+                <element signature="e#4488#4528#0" />
+                <element signature="e#4580#4740#0" />
+                <element signature="e#4792#4930#0" />
+                <element signature="e#5065#5319#0" />
+                <element signature="e#5885#5944#0" />
+                <element signature="e#6782#6796#0" />
+                <element signature="e#7574#8726#0" />
               </folding>
             </state>
           </provider>
@@ -48,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -85,36 +113,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/meituan/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/h5/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +141,8 @@
       <find>list</find>
       <find>000000</find>
       <find>sear</find>
+      <find>alipay</find>
+      <find>verify</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,16 +160,16 @@
         <option value="$PROJECT_DIR$/apps/mtauth/authentications.py" />
         <option value="$PROJECT_DIR$/apps/meituan/models.py" />
         <option value="$PROJECT_DIR$/apps/meituan/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/h5/urls.py" />
         <option value="$PROJECT_DIR$/keys/alipay_public_key.txt" />
         <option value="$PROJECT_DIR$/keys/app_private_key.txt" />
-        <option value="$PROJECT_DIR$/apps/h5/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/mtserver/urls.py" />
         <option value="$PROJECT_DIR$/mtserver/settings.py" />
         <option value="$PROJECT_DIR$/supervisor.conf" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/apps/h5/urls.py" />
+        <option value="$PROJECT_DIR$/apps/h5/views.py" />
       </list>
     </option>
   </component>
@@ -187,6 +193,22 @@
           <expand>
             <path>
               <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
               <item name="mtserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -270,19 +292,19 @@
       <workItem from="1580701581274" duration="4937000" />
       <workItem from="1580784375516" duration="3746000" />
       <workItem from="1580873274290" duration="14288000" />
-      <workItem from="1580966177866" duration="10368000" />
+      <workItem from="1580966177866" duration="13073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95740000" />
+    <option name="totallyTimeSpent" value="98445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.11302682" visible="true" weight="0.2624811" />
-      <window_info id="Structure" order="1" sideWeight="0.8869732" side_tool="true" weight="0.25869894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5754098" visible="true" weight="0.2624811" />
+      <window_info id="Structure" order="1" sideWeight="0.42459017" side_tool="true" visible="true" weight="0.2624811" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -308,14 +330,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/h5/views.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="87" lean-forward="true" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Envs/django_env/Lib/site-packages/django/core/handlers/exception.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -725,27 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#811#862#0" />
-            <element signature="e#899#1415#0" />
-            <element signature="e#1470#1514#0" />
-            <element signature="e#1573#1734#0" />
-            <element signature="e#1736#1742#0" />
-            <element signature="e#3451#3731#0" />
-            <element signature="e#3638#3731#0" />
-            <element signature="e#4062#4586#0" />
-            <element signature="e#4094#4211#0" />
-            <element signature="e#4250#4586#0" />
-            <element signature="e#4426#4485#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/mtauth/authentications.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -832,26 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/meituan/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="83" column="32" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -879,26 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="176" column="28" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mtserver/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -915,8 +880,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/alipay/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/meituan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#811#862#0" />
+            <element signature="e#899#1415#0" />
+            <element signature="e#1736#1742#0" />
+            <element signature="e#2928#3731#0" />
+            <element signature="e#3451#3731#0" />
+            <element signature="e#4094#4211#0" />
+            <element signature="e#4426#4485#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="181" column="94" selection-start-line="181" selection-start-column="94" selection-end-line="181" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <element signature="e#777#827#0" />
+            <element signature="e#867#1980#0" />
+            <element signature="e#999#1278#0" />
+            <element signature="e#1321#1369#0" />
+            <element signature="e#1406#1980#0" />
+            <element signature="e#1673#1745#0" />
+            <element signature="e#2019#2957#0" />
+            <element signature="e#2053#2142#0" />
+            <element signature="e#2180#2957#0" />
+            <element signature="e#2274#2837#0" />
+            <element signature="e#2362#2474#0" />
+            <element signature="e#2511#2661#0" />
+            <element signature="e#3011#3055#0" />
+            <element signature="e#3189#3325#0" />
+            <element signature="e#3327#3352#0" />
+            <element signature="e#3439#3903#0" />
+            <element signature="e#3728#3903#0" />
+            <element signature="e#3957#4296#0" />
+            <element signature="e#4043#4061#0" />
+            <element signature="e#4347#5319#0" />
+            <element signature="e#4488#4528#0" />
+            <element signature="e#4580#4740#0" />
+            <element signature="e#4792#4930#0" />
+            <element signature="e#5065#5319#0" />
+            <element signature="e#5885#5944#0" />
+            <element signature="e#6782#6796#0" />
+            <element signature="e#7574#8726#0" />
+          </folding>
         </state>
       </provider>
     </entry>
