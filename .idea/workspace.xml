@@ -1,90 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mtserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/h5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/h5/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/h5/throttles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/h5/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/h5/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0002_merchant_create_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0003_useraddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0004_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/meituan/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/authentications.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/migrations/0002_auto_20200128_2329.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/migrations/0003_auto_20200130_1707.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/mtauth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keys/alipay_public_key.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keys/app_private_key.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/3ndiu5jmSsrLNAxyeuVoAo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/4hHz2GcgHJXh9t9AgptyTL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/54gDhKXEMdoAwNdBiRyneW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/5ZYpmZdPLjDVpXy5qieCSa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/6xeuFBRMdzGvA6qzwjDDVU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/BhXgq7UMRSsAkTJNrymL9J.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/DMgRdxSpPUQyyMtQ8LFr8R.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/G2b4bzJwUtBKg9MTtA9py2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/LatK9PQDJYhS8eKGUTCKuK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/MdSGzXx7uup4eDs55yQdDm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/TLakUys6mDz65zPwQwRmLD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/UmTKs8popKWRYkqDM47VHC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/ZLGKMkMBuq23GPp4Tk3cXg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Zy3QqLATtc3TS5xeRUNkqC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/ayBvGdY4jE8sjZgQD462kW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/kevPGNbGthv7kQimiMvsG8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/oxt5JegY7TcMjunEnF46Qe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pr9Jj4hVNiyAy38zbbyDQE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/uUHtTraWgkAX8mB8YqsApS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/ubzCMf8zj9EUebAGrXjmKV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/urfvQ2xUbVAndov6EH5rbJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/v98CvkfQHHSKkHLZwq3TcN.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/vp7nvChtD5yunhPWH3PPfe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/wYkVngXG8ez7JqcdcW7mnY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meituan.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meituan_merchant.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtserver/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtserver/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtserver/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/app.1c035c6a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/chunk-vendors.232e7896.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/app.f886a7ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/app.f886a7ee.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/chunk-vendors.6a1cb2cd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/chunk-vendors.6a1cb2cd.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/CCPRestSDK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/xmltojson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/接口说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mtserver/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -206,6 +132,7 @@
         <option value="$PROJECT_DIR$/apps/h5/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/mtserver/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,16 +154,6 @@
           <expand>
             <path>
               <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="keys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
               <item name="mtserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -320,15 +237,15 @@
       <workItem from="1580701581274" duration="4937000" />
       <workItem from="1580784375516" duration="3746000" />
       <workItem from="1580873274290" duration="14288000" />
-      <workItem from="1580966177866" duration="3791000" />
+      <workItem from="1580966177866" duration="4600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89163000" />
+    <option name="totallyTimeSpent" value="89972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.11302682" visible="true" weight="0.2624811" />
@@ -937,6 +854,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
