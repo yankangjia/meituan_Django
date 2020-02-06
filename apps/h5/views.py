@@ -178,9 +178,10 @@ class OrderView(views.APIView):
                 out_trade_no=order.pk,
                 total_amount=str(order.total_price), # str(Decimal) => JSON
                 subject='外卖',
-                return_url=request.build_absolute_uri(request.reverse('h5:callback')), # get
-                notify_url=request.build_absolute_uri(request.reverse('h5:callback'))  # post 可选, 不填则使用默认notify url
+                return_url=request.build_absolute_uri(reverse('h5:callback')), # get
+                notify_url=request.build_absolute_uri(reverse('h5:callback'))  # post 可选, 不填则使用默认notify url
             )
+            print(request.build_absolute_uri(reverse('h5:callback')))
             pay_url = 'https://openapi.alipaydev.com/gateway.do?' + order_string
             return Response({'pay_url':pay_url})
         else:
