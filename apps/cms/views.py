@@ -15,6 +15,11 @@ from rest_framework import mixins
 import shortuuid,os
 from django.conf import settings
 from rest_framework.decorators import action
+from apps.mtauth.permissions import IsEditUser,IsFinanceUser
+from django.contrib.auth import get_user_model
+from django.contrib.auth.models import Group
+
+MTUser = get_user_model()
 
 class CmsBaseView(object):
     permission_classes = [IsAuthenticated, IsAdminUser]
@@ -38,7 +43,8 @@ class MerchantPagination(PageNumberPagination):
     page_size = 12
     page_query_param = 'page'
 # 商家
-class MerchantViewSet(CmsBaseView,ModelViewSet):
+class MerchantViewSet(ModelViewSet):
+    permission_classes = [IsAuthenticated,IsEditUser]
     queryset = models.Merchant.objects.order_by('-create_time').all()
     serializer_class = serializers.MerchantSerializer
     pagination_class = MerchantPagination
@@ -70,13 +76,13 @@ class MerchantViewSet(CmsBaseView,ModelViewSet):
 # 商品分类
 
 class CategoryViewSet(
-    CmsBaseView,
     GenericViewSet,
     mixins.CreateModelMixin,
     mixins.UpdateModelMixin,
     mixins.DestroyModelMixin,
     mixins.RetrieveModelMixin
 ):
+    permission_classes = [IsAuthenticated,IsEditUser]
     queryset = models.GoodsCategory.objects.all()
     serializer_class = serializers.GoodsCategorySerializer
 
@@ -97,15 +103,20 @@ class CategoryViewSet(
             return Response(status=status.HTTP_204_NO_CONTENT)
 
 class GoodsViewSet(
-    CmsBaseView,
     GenericViewSet,
     mixins.CreateModelMixin,
     mixins.UpdateModelMixin,
     mixins.DestroyModelMixin,
     mixins.RetrieveModelMixin
 ):
+    permission_classes = [IsAuthenticated,IsEditUser]
     queryset = models.Goods.objects.all()
     serializer_class = serializers.GoodsSerializer
+
+class OrderViewSet(ModelViewSet):
+    permission_classes = [IsAuthenticated,IsFinanceUser]
+    queryset = models.Order.objects.all()
+
 
 # 上传图片
 class PictureUploadView(CmsBaseView,APIView):
@@ -121,3 +132,23 @@ class PictureUploadView(CmsBaseView,APIView):
                 fp.write(chunk)
         # 将路径和域名拼接成url
         return self.request.build_absolute_uri(settings.MEDIA_URL + filename)
+
+
+class InitStaff(APIView):
+    permission_classes = []
+    def get(self,request):
+        users = models.MTUser.objects.all()
+        for user in users:
+            user.set_password("111111")
+            user.save()
+
+        edit_group = Group.objects.get(name="编辑")
+        user1 = MTUser.objects.get(telephone="18899990000")
+        user1.groups.add(edit_group)
+        user1.save()
+
+        finance_group = Group.objects.get(name="财务")
+        user2 = MTUser.objects.get(telephone="18800009999")
+        user2.groups.add(finance_group)
+        user2.save()
+        return Response("success")
