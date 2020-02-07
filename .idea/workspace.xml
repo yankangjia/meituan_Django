@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mtauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.1c035c6a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/chunk-vendors.232e7896.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.f886a7ee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.f886a7ee.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/chunk-vendors.6a1cb2cd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/chunk-vendors.6a1cb2cd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/js/chunk-vendors.6a1cb2cd.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/user/js/chunk-vendors.6a1cb2cd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,16 +52,16 @@
         <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret column="943" lean-forward="true" selection-start-column="943" selection-end-column="943" />
+              <caret column="943" selection-start-column="943" selection-end-column="943" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret column="1025" selection-start-column="1025" selection-end-column="1025" />
+              <caret column="1025" lean-forward="true" selection-start-column="1025" selection-end-column="1025" />
             </state>
           </provider>
         </entry>
@@ -88,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -147,10 +137,10 @@
         <option value="$PROJECT_DIR$/apps/cms/views.py" />
         <option value="$PROJECT_DIR$/apps/mtauth/serializers.py" />
         <option value="$PROJECT_DIR$/templates/server_index.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/cms_index.html" />
         <option value="$PROJECT_DIR$/mtserver/urls.py" />
         <option value="$PROJECT_DIR$/apps/cms/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -274,12 +264,12 @@
       <workItem from="1580784375516" duration="3746000" />
       <workItem from="1580873274290" duration="14288000" />
       <workItem from="1580966177866" duration="14723000" />
-      <workItem from="1581053857580" duration="11347000" />
+      <workItem from="1581053857580" duration="12405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111442000" />
+    <option name="totallyTimeSpent" value="112500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -879,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret column="1025" selection-start-column="1025" selection-end-column="1025" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-631">
@@ -911,13 +894,6 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret column="943" lean-forward="true" selection-start-column="943" selection-end-column="943" />
         </state>
       </provider>
     </entry>
@@ -948,6 +924,20 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret column="943" selection-start-column="943" selection-end-column="943" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret column="1025" lean-forward="true" selection-start-column="1025" selection-end-column="1025" />
         </state>
       </provider>
     </entry>
