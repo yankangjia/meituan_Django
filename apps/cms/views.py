@@ -18,6 +18,7 @@ from rest_framework.decorators import action
 from apps.mtauth.permissions import IsEditUser,IsFinanceUser
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import Group
+from rest_framework.decorators import api_view
 
 MTUser = get_user_model()
 
