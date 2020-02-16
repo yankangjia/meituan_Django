@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cms/js/app.ab56a24f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cms/js/app.ab56a24f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cms_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cms_index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
-              <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
               <folding>
                 <element signature="e#823#873#0" />
                 <element signature="e#1045#1324#0" />
@@ -81,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="943" selection-start-column="943" selection-end-column="943" />
+            <state relative-caret-position="153">
+              <caret column="924" lean-forward="true" selection-start-column="924" selection-end-column="924" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -155,15 +156,15 @@
         <option value="$PROJECT_DIR$/apps/mtauth/permissions.py" />
         <option value="$PROJECT_DIR$/apps/mtauth/serializers.py" />
         <option value="$PROJECT_DIR$/templates/server_index.html" />
-        <option value="$PROJECT_DIR$/templates/cms_index.html" />
         <option value="$PROJECT_DIR$/mtserver/urls.py" />
         <option value="$PROJECT_DIR$/apps/cms/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/apps/cms/views.py" />
+        <option value="$PROJECT_DIR$/templates/cms_index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="101" />
     <option name="y" value="64" />
     <option name="width" value="845" />
@@ -184,17 +185,6 @@
             <path>
               <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="h5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
@@ -289,23 +279,23 @@
       <workItem from="1581567305345" duration="2480000" />
       <workItem from="1581686119654" duration="1991000" />
       <workItem from="1581754151419" duration="1269000" />
-      <workItem from="1581853937147" duration="697000" />
+      <workItem from="1581853937147" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125939000" />
+    <option name="totallyTimeSpent" value="126923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.13348417" visible="true" weight="0.28744328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.13348417" visible="true" weight="0.28744328" />
       <window_info id="Structure" order="1" sideWeight="0.8665158" side_tool="true" weight="0.28290468" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29836065" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29836065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -898,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="943" selection-start-column="943" selection-end-column="943" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -915,7 +898,7 @@
     <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
           <folding>
             <element signature="e#823#873#0" />
             <element signature="e#1045#1324#0" />
@@ -954,7 +937,14 @@
     <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret column="924" lean-forward="true" selection-start-column="924" selection-end-column="924" />
         </state>
       </provider>
     </entry>
