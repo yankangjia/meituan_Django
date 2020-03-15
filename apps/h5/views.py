@@ -1,30 +1,38 @@
-from rest_framework import views,viewsets,status,mixins,generics,permissions,filters
-from rest_framework.response import Response
-from utils.CCPSDK import CCPRestSDK
-from .throttles import SMSCodeRateThrottle
-import random,os
+import random
+import os
+
+from django.conf import settings
+from django.shortcuts import redirect,reverse
 from django.core.cache import cache
-from .serializers import LoginSerializer
 from django.contrib.auth import get_user_model
 from django.utils.timezone import now
+from rest_framework import views,viewsets,status,mixins,generics,permissions,filters
+from rest_framework.response import Response
+from rest_framework.decorators import action
+from rest_framework.pagination import PageNumberPagination
+from alipay import AliPay
+
 from apps.mtauth.serializers import UserSerializer
 from apps.mtauth.authentications import generic_jwt
 from apps.meituan import models
 from apps.meituan import serializers
-from rest_framework.decorators import action
-from rest_framework.pagination import PageNumberPagination
-from alipay import AliPay
-from django.conf import settings
-from django.shortcuts import redirect,reverse
+from .serializers import LoginSerializer
+from .throttles import SMSCodeRateThrottle
+from utils.CCPSDK import CCPRestSDK
+
 
 User = get_user_model()
+
 
 class BaseView(object):
     permission_classes = [permissions.IsAuthenticated]
 
+
 class SMSCodeView(views.APIView):
+
     # throttle_classes = [AnonRateThrottle]
     throttle_classes = [SMSCodeRateThrottle]
+
     def __init__(self,*args,**kwargs):
         super(SMSCodeView,self).__init__(*args,**kwargs)
         self.numbers = [str(i) for i in range(10)]
@@ -50,6 +58,7 @@ class SMSCodeView(views.APIView):
         # else:
         #     return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+
 class LoginView(views.APIView):
 
     def generic_number(self):
@@ -73,26 +82,21 @@ class LoginView(views.APIView):
         else:
             return Response(data={'messsage':dict(serializer.errors)},status=status.HTTP_400_BAD_REQUEST)
 
+
 class MerchantPagination(PageNumberPagination):
     page_query_params = 'page'
     page_size = 8
 
-class MerchantViewSet(
-    # BaseView,
-    viewsets.GenericViewSet,
-    mixins.ListModelMixin,
-    mixins.RetrieveModelMixin
-):
+
+class MerchantViewSet(viewsets.GenericViewSet,
+                      mixins.ListModelMixin,
+                      mixins.RetrieveModelMixin):
     queryset = models.Merchant.objects.all()
     serializer_class = serializers.MerchantSerializer
     pagination_class = MerchantPagination
 
-# viewsets.GenericViewSet
-# generics
-class CategoryViewSet(
-    # BaseView,
-    viewsets.GenericViewSet,
-):
+
+class CategoryViewSet(viewsets.GenericViewSet):
     queryset = models.GoodsCategory.objects.all()
     serializer_class = serializers.GoodsCategorySerializer
 
@@ -103,15 +107,18 @@ class CategoryViewSet(
         serializer = self.get_serializer(instance=queryset,many=True)
         return Response(data=serializer.data)
 
+
 class MerchantSearchView(generics.ListAPIView):
+
     # 继承SearchFilter，修改搜索参数
     class MerchantSearchFilter(filters.SearchFilter):
         search_param = 'q'
+
     queryset = models.Merchant.objects.all()
     serializer_class = serializers.MerchantSerializer
     filter_backends = [MerchantSearchFilter]
-    # 过滤的字段
-    search_fields = ['name','categories__name','categories__goods_list__name']
+    search_fields = ['name','categories__name','categories__goods_list__name']      # 过滤的字段
+
 
 class AddressViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.AddressSerializer
@@ -140,7 +147,9 @@ class AddressViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(instance=address)
         return Response(data=serializer.data)
 
+
 class OrderView(views.APIView):
+
     def post(self,request):
         serializer = serializers.CreateOrderSerializer(data=request.data)
         if serializer.is_valid():
@@ -187,16 +196,17 @@ class OrderView(views.APIView):
         else:
             return Response({'message':dict(serializer.errors)},status=status.HTTP_400_BAD_REQUEST)
 
+
 class AlipayCallbackView(views.APIView):
+
     # 支付完成跳转
     def get(self,request):
         return redirect('/')
+
     # 支付完成通知
     def post(self,request):
         data = request.data
         alipay_data = dict(list(data.items()))
-        print('=====================================')
-        print(alipay_data)
         signature = alipay_data.pop('sign')
         alipay = AliPay(
             appid="2016102000727796",

@@ -1,12 +1,16 @@
+"""
+自定义用户认证类
+"""
 import jwt
 import time
 from django.conf import settings
+from django.contrib.auth import get_user_model
 from rest_framework.authentication import BaseAuthentication,get_authorization_header
 from rest_framework import exceptions
-from django.contrib.auth import get_user_model
 
 
 User = get_user_model()
+
 
 # 生成token
 def generic_jwt(user):
@@ -16,11 +20,11 @@ def generic_jwt(user):
     return jwt.encode({'userid':user.id,'exp':expires_time},key=settings.SECRET_KEY).decode('utf-8')
 
 
+# 自定义JWT认证
 class JWTAuthentication(BaseAuthentication):
     """
     Authorization: JWT 401f7ac837da42b97f613d789819ff93537bee6a
     """
-
     keyword = 'JWT'
     model = None
 
