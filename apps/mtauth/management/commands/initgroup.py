@@ -1,8 +1,14 @@
+"""
+自定义命令行用户组初始化命令
+"""
 from django.core.management.base import BaseCommand
 from django.contrib.auth.models import Group,ContentType,Permission
+
 from apps.meituan.models import Merchant,GoodsCategory,Goods,Order
 
+
 class Command(BaseCommand):
+
     def handle(self, *args, **options):
         # 编辑组
         edit_content_types = [

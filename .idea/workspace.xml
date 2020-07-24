@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0005_auto_20200722_1236.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0006_order_merchat_id.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0007_auto_20200723_1034.py" afterDir="false" />
@@ -22,6 +23,26 @@
       <change beforePath="$PROJECT_DIR$/static/user/js/chunk-vendors.6a1cb2cd.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mtserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mtserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/throttles.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/throttles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mtauth/authentications.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/authentications.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mtauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mtauth/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mtauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mtauth/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtserver/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mtserver/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> 82b0b22a93d68bb9737e952e4965643e8d42a4d4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +51,12 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+>>>>>>> 82b0b22a93d68bb9737e952e4965643e8d42a4d4
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,6 +64,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,6 +75,83 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_staff</find>
+      <find>mtuser</find>
+      <find>DoesNotExist</find>
+      <find>list</find>
+      <find>000000</find>
+      <find>sear</find>
+      <find>alipay</find>
+      <find>verify</find>
+      <find>group</find>
+      <find>gen</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/meituan/models.py" />
+        <option value="$PROJECT_DIR$/apps/meituan/serializers.py" />
+        <option value="$PROJECT_DIR$/keys/alipay_public_key.txt" />
+        <option value="$PROJECT_DIR$/keys/app_private_key.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/supervisor.conf" />
+        <option value="$PROJECT_DIR$/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/templates/server_index.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/cms_index.html" />
+        <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/apps/h5/views.py" />
+        <option value="$PROJECT_DIR$/apps/cms/views.py" />
+        <option value="$PROJECT_DIR$/mtserver/settings.py" />
+        <option value="$PROJECT_DIR$/apps/cms/urls.py" />
+        <option value="$PROJECT_DIR$/apps/h5/urls.py" />
+        <option value="$PROJECT_DIR$/apps/h5/throttles.py" />
+        <option value="$PROJECT_DIR$/apps/h5/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/mtauth/authentications.py" />
+        <option value="$PROJECT_DIR$/apps/mtauth/models.py" />
+        <option value="$PROJECT_DIR$/apps/mtauth/permissions.py" />
+        <option value="$PROJECT_DIR$/apps/mtauth/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py" />
+        <option value="$PROJECT_DIR$/mtserver/urls.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="101" />
+    <option name="y" value="64" />
+    <option name="width" value="845" />
+    <option name="height" value="724" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+>>>>>>> 82b0b22a93d68bb9737e952e4965643e8d42a4d4
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -114,6 +219,7 @@
       <workItem from="1580873274290" duration="14288000" />
       <workItem from="1580966177866" duration="14723000" />
       <workItem from="1581053857580" duration="13007000" />
+<<<<<<< HEAD
       <workItem from="1586795901157" duration="121000" />
       <workItem from="1595387655241" duration="28803000" />
     </task>
@@ -143,5 +249,354 @@
       <screen x="0" y="0" width="1366" height="734" />
     </state>
     <state x="346" y="55" width="672" height="678" key="search.everywhere.popup/0.0.1366.734@0.0.1366.734" timestamp="1595563801665" />
+=======
+      <workItem from="1581493885257" duration="6400000" />
+      <workItem from="1581567305345" duration="2480000" />
+      <workItem from="1581686119654" duration="1991000" />
+      <workItem from="1581754151419" duration="1269000" />
+      <workItem from="1581853937147" duration="1681000" />
+      <workItem from="1583331749613" duration="4193000" />
+      <workItem from="1583395057260" duration="707000" />
+      <workItem from="1583429664102" duration="548000" />
+      <workItem from="1583478051656" duration="5610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137981000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.13348417" visible="true" weight="0.2441767" />
+      <window_info id="Structure" order="1" sideWeight="0.8665158" side_tool="true" weight="0.28290468" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49799198" weight="0.29765886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.28674698" weight="0.32943144" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="manage.py@mtserver" order="9" weight="0.43114755" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004016" side_tool="true" weight="0.32943144" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49959838" visible="true" weight="0.32943144" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49959838" weight="0.32943144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/settings.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/filters.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="291" column="4" lean-forward="true" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/utils/serializer_helpers.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/keys/alipay_public_key.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="116" selection-start-line="1" selection-start-column="116" selection-end-line="1" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/app_private_key.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/meituan/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/4hHz2GcgHJXh9t9AgptyTL.jpg" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/alipay/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/contenttypes/models.py" />
+    <entry file="file://$PROJECT_DIR$/apps/meituan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/authtoken/serializers.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/auth/base_user.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/auth/models.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/mixins.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/request.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/viewsets.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/generics.py" />
+    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/views.py" />
+    <entry file="file://$PROJECT_DIR$/hello.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1025" selection-start-column="1025" selection-end-column="1025" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/rest_framework/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#83#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#62#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#676#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#1131#1647#0" />
+            <element signature="e#1697#1741#0" />
+            <element signature="e#1788#2003#0" />
+            <element signature="e#3180#4037#0" />
+            <element signature="e#4665#5189#0" />
+            <element signature="e#5097#5661#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/rest_framework/routers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="797" selection-start-column="797" selection-end-column="797" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/throttles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtserver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h5/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/authentications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meituan-env/lib/python3.6/site-packages/shortuuidfield/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#207#870#0" />
+            <element signature="e#919#1825#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#175#239#0" />
+            <element signature="e#285#398#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#113#323#0" />
+            <element signature="e#342#514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervisor.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 82b0b22a93d68bb9737e952e4965643e8d42a4d4
   </component>
 </project>

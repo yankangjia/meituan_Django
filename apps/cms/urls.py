@@ -1,7 +1,11 @@
+"""
+cms后端路径
+"""
 from django.urls import path,re_path
-from . import views
-from rest_framework.routers import DefaultRouter
 from django.views.generic import TemplateView
+from rest_framework.routers import DefaultRouter
+
+from . import views
 
 app_name = 'cms'
 

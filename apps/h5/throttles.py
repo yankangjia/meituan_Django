@@ -1,3 +1,6 @@
+"""
+对发送短信验证码进行节流限速
+"""
 from rest_framework.throttling import SimpleRateThrottle
 
 class SMSCodeRateThrottle(SimpleRateThrottle):

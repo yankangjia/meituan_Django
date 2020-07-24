@@ -1,31 +1,40 @@
-from rest_framework.views import APIView
-from rest_framework.authtoken.serializers import AuthTokenSerializer
-from apps.mtauth.serializers import UserSerializer
-from apps.mtauth.authentications import generic_jwt
+import shortuuid
+import os
+
+from django.conf import settings
+from django.contrib.auth import get_user_model
+from django.contrib.auth.models import Group
 from django.utils.timezone import now
+
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.viewsets import ModelViewSet,GenericViewSet
-from apps.meituan import models
-from apps.meituan import serializers
-from apps.mtauth.authentications import JWTAuthentication
+from rest_framework.views import APIView
+from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.permissions import IsAuthenticated,IsAdminUser
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import mixins
-import shortuuid,os
-from django.conf import settings
 from rest_framework.decorators import action
+from rest_framework.decorators import api_view
+
+from apps.mtauth.serializers import UserSerializer
+from apps.mtauth.authentications import generic_jwt
+from apps.meituan import models
+from apps.meituan import serializers
 from apps.mtauth.permissions import IsEditUser,IsFinanceUser
-from django.contrib.auth import get_user_model
-from django.contrib.auth.models import Group
+from apps.mtauth.authentications import JWTAuthentication
+
 
 MTUser = get_user_model()
+
 
 class CmsBaseView(object):
     permission_classes = [IsAuthenticated, IsAdminUser]
 
+
 # 登录
 class LoginView(APIView):
+
     def post(self,request):
         serializer = AuthTokenSerializer(data=request.data)
         if serializer.is_valid():
@@ -42,6 +51,8 @@ class LoginView(APIView):
 class MerchantPagination(PageNumberPagination):
     page_size = 12
     page_query_param = 'page'
+
+
 # 商家
 class MerchantViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated,IsEditUser]
@@ -49,39 +60,13 @@ class MerchantViewSet(ModelViewSet):
     serializer_class = serializers.MerchantSerializer
     pagination_class = MerchantPagination
 
-# 商品分类
-# class GoodsCategoryViewSet(CmsBaseView,ModelViewSet):
-#     queryset = models.GoodsCategory.objects.all()
-#     serializer_class = serializers.GoodsCategorySerializer
-#
-#     def list(self, request, *args, **kwargs):
-#         goods_categorys = self.get_queryset()
-#         merchant_id = request.query_params.get('merchant_id')
-#         if merchant_id is not None:
-#             try:
-#                 merchant = models.Merchant.objects.get(pk=merchant_id)
-#             except:
-#                 models.GoodsCategory.DoesNotExist('商家不存在')
-#             else:
-#                 goods_categorys = goods_categorys.filter(merchant=merchant)
-#         page = self.paginate_queryset(goods_categorys)
-#         if page is not None:
-#             serializer = self.get_serializer(page, many=True)
-#             return self.get_paginated_response(serializer.data)
-#
-#         serializer = self.get_serializer(instance=goods_categorys, many=True)
-#         return Response(data=serializer.data)
-
 
 # 商品分类
-
-class CategoryViewSet(
-    GenericViewSet,
-    mixins.CreateModelMixin,
-    mixins.UpdateModelMixin,
-    mixins.DestroyModelMixin,
-    mixins.RetrieveModelMixin
-):
+class CategoryViewSet(GenericViewSet,
+                      mixins.CreateModelMixin,
+                      mixins.UpdateModelMixin,
+                      mixins.DestroyModelMixin,
+                      mixins.RetrieveModelMixin):
     permission_classes = [IsAuthenticated,IsEditUser]
     queryset = models.GoodsCategory.objects.all()
     serializer_class = serializers.GoodsCategorySerializer
@@ -102,16 +87,16 @@ class CategoryViewSet(
             self.perform_destroy(instance)
             return Response(status=status.HTTP_204_NO_CONTENT)
 
-class GoodsViewSet(
-    GenericViewSet,
-    mixins.CreateModelMixin,
-    mixins.UpdateModelMixin,
-    mixins.DestroyModelMixin,
-    mixins.RetrieveModelMixin
-):
+
+class GoodsViewSet(GenericViewSet,
+                   mixins.CreateModelMixin,
+                   mixins.UpdateModelMixin,
+                   mixins.DestroyModelMixin,
+                   mixins.RetrieveModelMixin):
     permission_classes = [IsAuthenticated,IsEditUser]
     queryset = models.Goods.objects.all()
     serializer_class = serializers.GoodsSerializer
+
 
 class OrderViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated,IsFinanceUser]
@@ -120,10 +105,12 @@ class OrderViewSet(ModelViewSet):
 
 # 上传图片
 class PictureUploadView(CmsBaseView,APIView):
+
     def post(self,request):
         file = request.data.get('file')
         file_url = self.save_file(file)
         return Response({'picture':file_url})
+
     def save_file(self,file):
         filename = shortuuid.uuid() + os.path.splitext(file.name)[-1]
         filepath = os.path.join(settings.MEDIA_ROOT,filename)
@@ -136,6 +123,7 @@ class PictureUploadView(CmsBaseView,APIView):
 
 class InitStaff(APIView):
     permission_classes = []
+
     def get(self,request):
         users = models.MTUser.objects.all()
         for user in users:
