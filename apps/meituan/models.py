@@ -20,7 +20,6 @@ class Merchant(models.Model):
 
     created = models.ForeignKey(MTUser,on_delete=models.SET_NULL,null=True)
 
-
 class GoodsCategory(models.Model):
     """
     商家商品分类
@@ -82,6 +81,14 @@ class Order(models.Model):
     order_status = models.SmallIntegerField(choices=ORDER_STATUS_CHOICES,default=1,verbose_name='订单状态')
     goods_count = models.SmallIntegerField()
     total_price = models.DecimalField(max_digits=10,decimal_places=2,verbose_name='成交总价')
-    goods_list = models.ManyToManyField(Goods)
+    # goods_list = models.ManyToManyField(Goods)        # 通过OrderItem获取
     user = models.ForeignKey(MTUser,on_delete=models.CASCADE,related_name='orders',verbose_name='用户')
     address = models.ForeignKey(UserAddress,on_delete=models.CASCADE,verbose_name='地址')
+    merchant = models.ForeignKey('Merchant',on_delete=models.CASCADE,related_name='orders')
+    create_time = models.DateTimeField(auto_now_add=True,null=True)
+    update_time = models.DateTimeField(auto_now=True,null=True)
+
+class OrderItem(models.Model):
+    order = models.ForeignKey('Order',on_delete=models.CASCADE,related_name='order_items',verbose_name='订单')
+    goods = models.ForeignKey('Goods',on_delete=models.CASCADE,related_name='order_items',verbose_name='商品')
+    count = models.IntegerField(verbose_name='数量')

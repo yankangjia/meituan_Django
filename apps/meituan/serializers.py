@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Merchant,GoodsCategory,Goods,UserAddress
+from .models import Merchant,GoodsCategory,Goods,UserAddress,Order,OrderItem
 
 
 class MerchantSerializer(serializers.ModelSerializer):
@@ -52,4 +52,19 @@ class AddressSerializer(serializers.ModelSerializer):
 
 class CreateOrderSerializer(serializers.Serializer):
     address_id = serializers.IntegerField()
-    goods_id_list = serializers.ListField(min_length=1)
+    goods_list = serializers.ListField(min_length=1)
+    merchant_id = serializers.IntegerField()
+
+class OrderItemSerializer(serializers.ModelSerializer):
+    goods = GoodsSerializer(read_only=True)
+    class Meta:
+        model = OrderItem
+        exclude = ['order']
+
+class OrderSerializer(serializers.ModelSerializer):
+    order_items = OrderItemSerializer(many=True,read_only=True)
+    merchant = MerchantSerializer(read_only=True)
+    create_time = serializers.DateTimeField(format="%Y-%m-%d %H:%M:%S", read_only=True)
+    class Meta:
+        model = Order
+        exclude = ['user']

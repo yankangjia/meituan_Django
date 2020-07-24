@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="680a7e8a-31fd-4f57-af5e-938f1d7e090f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0005_auto_20200722_1236.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0006_order_merchat_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0007_auto_20200723_1034.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/meituan/migrations/0008_auto_20200723_1415.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/h5/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/h5/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/meituan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/meituan/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/meituan/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/meituan/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtserver/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mtserver/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/css/app.1c035c6a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/css/chunk-vendors.232e7896.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/user/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/js/app.f886a7ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/js/app.f886a7ee.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/js/chunk-vendors.6a1cb2cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/js/chunk-vendors.6a1cb2cd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,84 +30,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-631">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#811#862#0" />
-                <element signature="e#1736#1742#0" />
-                <element signature="e#3015#3872#0" />
-                <element signature="e#3451#3731#0" />
-                <element signature="e#4038#4180#0" />
-                <element signature="e#4062#4586#0" />
-                <element signature="e#4094#4211#0" />
-                <element signature="e#4426#4485#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mtauth/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret column="943" selection-start-column="943" selection-end-column="943" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret column="1025" lean-forward="true" selection-start-column="1025" selection-end-column="1025" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -96,93 +37,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>is_staff</find>
-      <find>mtuser</find>
-      <find>DoesNotExist</find>
-      <find>list</find>
-      <find>000000</find>
-      <find>sear</find>
-      <find>alipay</find>
-      <find>verify</find>
-      <find>group</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/apps/mtauth/models.py" />
-        <option value="$PROJECT_DIR$/apps/h5/throttles.py" />
-        <option value="$PROJECT_DIR$/apps/h5/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/mtauth/authentications.py" />
-        <option value="$PROJECT_DIR$/apps/meituan/models.py" />
-        <option value="$PROJECT_DIR$/apps/meituan/serializers.py" />
-        <option value="$PROJECT_DIR$/keys/alipay_public_key.txt" />
-        <option value="$PROJECT_DIR$/keys/app_private_key.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/mtserver/settings.py" />
-        <option value="$PROJECT_DIR$/supervisor.conf" />
-        <option value="$PROJECT_DIR$/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/apps/h5/urls.py" />
-        <option value="$PROJECT_DIR$/apps/h5/views.py" />
-        <option value="$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py" />
-        <option value="$PROJECT_DIR$/apps/mtauth/permissions.py" />
-        <option value="$PROJECT_DIR$/apps/cms/views.py" />
-        <option value="$PROJECT_DIR$/apps/mtauth/serializers.py" />
-        <option value="$PROJECT_DIR$/templates/server_index.html" />
-        <option value="$PROJECT_DIR$/templates/cms_index.html" />
-        <option value="$PROJECT_DIR$/mtserver/urls.py" />
-        <option value="$PROJECT_DIR$/apps/cms/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="64" />
-    <option name="width" value="845" />
-    <option name="height" value="724" />
-  </component>
+  <component name="ProjectId" id="1f1ZePpW7xoKxOkopYB7N8RVuMX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtserver" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -202,18 +66,6 @@
       <recent name="D:\DjangoProjects\mtserver\templates" />
       <recent name="D:\DjangoProjects\mtserver\apps" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="mtserver" type="Python.DjangoServer" factoryName="Django server">
@@ -262,680 +114,34 @@
       <workItem from="1580873274290" duration="14288000" />
       <workItem from="1580966177866" duration="14723000" />
       <workItem from="1581053857580" duration="13007000" />
+      <workItem from="1586795901157" duration="121000" />
+      <workItem from="1595387655241" duration="28803000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113102000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5723982" visible="true" weight="0.26626325" />
-      <window_info id="Structure" order="1" sideWeight="0.4276018" side_tool="true" weight="0.26626325" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27540985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="manage.py@mtserver" order="9" weight="0.43114755" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/meituan/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/CCPSDK/接口说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/CCPSDK/CCPRestSDK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="175" column="38" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/throttling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="206" column="35" lean-forward="true" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#45#1" />
-            <element signature="e#248#1466#0" />
-            <element signature="e#248#292#1" />
-            <element signature="e#358#521#0" />
-            <element signature="e#358#448#1" />
-            <element signature="e#578#1287#0" />
-            <element signature="e#578#813#1" />
-            <element signature="e#1019#1226#0" />
-            <element signature="e#1331#1466#0" />
-            <element signature="e#1331#1446#1" />
-            <element signature="e#1520#5453#0" />
-            <element signature="e#1520#1939#1" />
-            <element signature="e#2145#2319#0" />
-            <element signature="e#2373#2631#0" />
-            <element signature="e#2373#2558#1" />
-            <element signature="e#2689#3202#0" />
-            <element signature="e#2689#2777#1" />
-            <element signature="e#2835#2991#0" />
-            <element signature="e#3094#3202#0" />
-            <element signature="e#3244#3646#0" />
-            <element signature="e#3265#3408#1" />
-            <element signature="e#3700#4566#0" />
-            <element signature="e#3700#3877#1" />
-            <element signature="e#4196#4258#0" />
-            <element signature="e#4608#4837#0" />
-            <element signature="e#4608#4714#1" />
-            <element signature="e#4879#4986#0" />
-            <element signature="e#4879#4965#1" />
-            <element signature="e#5016#5453#0" />
-            <element signature="e#5016#5093#1" />
-            <element signature="e#5513#5968#0" />
-            <element signature="e#5513#5669#1" />
-            <element signature="e#5742#5968#0" />
-            <element signature="e#5879#5968#0" />
-            <element signature="e#6028#6265#1" />
-            <element signature="e#6635#8264#0" />
-            <element signature="e#6635#6941#1" />
-            <element signature="e#7009#7134#0" />
-            <element signature="e#7009#7076#0" />
-            <element signature="e#7188#7744#0" />
-            <element signature="e#7450#7514#0" />
-            <element signature="e#7798#8264#0" />
-            <element signature="e#7798#8020#1" />
-            <element signature="e#8193#8264#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/throttles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="159" column="4" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/pagination.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#113#1" />
-            <element signature="e#114#153#0" expanded="true" />
-            <element signature="e#813#1034#0" />
-            <element signature="e#813#874#1" />
-            <element signature="e#1070#1205#0" />
-            <element signature="e#1070#1144#1" />
-            <element signature="e#1261#2859#0" />
-            <element signature="e#1261#1919#1" />
-            <element signature="e#2038#2098#0" />
-            <element signature="e#2214#2276#0" />
-            <element signature="e#2370#2409#0" />
-            <element signature="e#2447#2502#0" />
-            <element signature="e#2589#2670#0" />
-            <element signature="e#2920#3436#0" />
-            <element signature="e#2920#3029#1" />
-            <element signature="e#3095#3414#0" />
-            <element signature="e#3180#3377#0" />
-            <element signature="e#3482#3764#0" />
-            <element signature="e#3482#3629#1" />
-            <element signature="e#3657#3703#0" />
-            <element signature="e#4016#4856#0" />
-            <element signature="e#4138#4207#0" />
-            <element signature="e#4281#4355#0" />
-            <element signature="e#4418#4431#0" />
-            <element signature="e#4484#4568#0" />
-            <element signature="e#4611#4633#0" />
-            <element signature="e#4682#4784#0" />
-            <element signature="e#4847#4856#0" />
-            <element signature="e#5128#5152#0" />
-            <element signature="e#5475#5537#0" />
-            <element signature="e#6698#6841#0" />
-            <element signature="e#7139#7356#0" />
-            <element signature="e#7167#7354#0" />
-            <element signature="e#7419#7912#0" />
-            <element signature="e#7426#7912#0" />
-            <element signature="e#7484#7901#0" />
-            <element signature="e#7511#7605#0" />
-            <element signature="e#7631#7726#0" />
-            <element signature="e#7756#7851#0" />
-            <element signature="e#7960#8307#0" />
-            <element signature="e#8346#8573#0" />
-            <element signature="e#8616#8946#0" />
-            <element signature="e#8988#9687#0" />
-            <element signature="e#9091#9293#0" />
-            <element signature="e#9539#9687#0" />
-            <element signature="e#9720#9847#0" />
-            <element signature="e#9896#10907#0" />
-            <element signature="e#10097#10425#0" />
-            <element signature="e#10489#10885#0" />
-            <element signature="e#10970#11760#0" />
-            <element signature="e#10983#11293#0" />
-            <element signature="e#10997#11282#0" />
-            <element signature="e#11209#11267#0" />
-            <element signature="e#11357#11734#0" />
-            <element signature="e#11392#11719#0" />
-            <element signature="e#11634#11700#0" />
-            <element signature="e#11812#18628#0" />
-            <element signature="e#11812#11974#1" />
-            <element signature="e#12394#12869#0" />
-            <element signature="e#12923#13125#0" />
-            <element signature="e#12951#13123#0" />
-            <element signature="e#13188#13681#0" />
-            <element signature="e#13195#13681#0" />
-            <element signature="e#13253#13670#0" />
-            <element signature="e#13280#13374#0" />
-            <element signature="e#13400#13495#0" />
-            <element signature="e#13525#13620#0" />
-            <element signature="e#13725#14064#0" />
-            <element signature="e#13764#14029#0" />
-            <element signature="e#13785#13965#0" />
-            <element signature="e#14109#14284#0" />
-            <element signature="e#14126#14224#0" />
-            <element signature="e#14323#14629#0" />
-            <element signature="e#14672#15067#0" />
-            <element signature="e#15109#16581#0" />
-            <element signature="e#15190#15813#0" />
-            <element signature="e#15260#15305#0" />
-            <element signature="e#15840#15873#0" />
-            <element signature="e#15989#16268#0" />
-            <element signature="e#16121#16268#0" />
-            <element signature="e#16433#16581#0" />
-            <element signature="e#16614#16741#0" />
-            <element signature="e#16786#17008#0" />
-            <element signature="e#16786#16882#1" />
-            <element signature="e#17057#17911#0" />
-            <element signature="e#17256#17911#0" />
-            <element signature="e#17974#18628#0" />
-            <element signature="e#17987#18602#0" />
-            <element signature="e#18001#18288#0" />
-            <element signature="e#18215#18273#0" />
-            <element signature="e#18302#18591#0" />
-            <element signature="e#18518#18576#0" />
-            <element signature="e#18675#34672#0" />
-            <element signature="e#18675#18889#1" />
-            <element signature="e#19174#19236#0" />
-            <element signature="e#19416#19490#0" />
-            <element signature="e#19587#19651#0" />
-            <element signature="e#19981#23149#0" />
-            <element signature="e#20780#21211#0" />
-            <element signature="e#21221#21294#0" />
-            <element signature="e#21665#21788#0" />
-            <element signature="e#21815#21883#0" />
-            <element signature="e#21917#22507#0" />
-            <element signature="e#21917#21988#0" />
-            <element signature="e#22534#22902#0" />
-            <element signature="e#22912#22973#0" />
-            <element signature="e#23197#23544#0" />
-            <element signature="e#23240#23513#0" />
-            <element signature="e#23261#23449#0" />
-            <element signature="e#23583#25844#0" />
-            <element signature="e#23732#23949#0" />
-            <element signature="e#23732#23791#0" />
-            <element signature="e#24124#24744#0" />
-            <element signature="e#24241#24471#0" />
-            <element signature="e#24241#24294#0" />
-            <element signature="e#24485#24546#0" />
-            <element signature="e#24818#25659#0" />
-            <element signature="e#24918#25147#0" />
-            <element signature="e#24918#24945#0" />
-            <element signature="e#25202#25408#0" />
-            <element signature="e#25202#25261#0" />
-            <element signature="e#25443#25659#0" />
-            <element signature="e#25443#25500#0" />
-            <element signature="e#25887#28137#0" />
-            <element signature="e#26044#26260#0" />
-            <element signature="e#26044#26103#0" />
-            <element signature="e#26429#27049#0" />
-            <element signature="e#26546#26776#0" />
-            <element signature="e#26546#26599#0" />
-            <element signature="e#26790#26851#0" />
-            <element signature="e#27123#27949#0" />
-            <element signature="e#27219#27448#0" />
-            <element signature="e#27219#27246#0" />
-            <element signature="e#27503#27715#0" />
-            <element signature="e#27503#27560#0" />
-            <element signature="e#27750#27949#0" />
-            <element signature="e#27750#27809#0" />
-            <element signature="e#28200#30010#0" />
-            <element signature="e#28200#28292#1" />
-            <element signature="e#28320#28460#0" />
-            <element signature="e#28503#29055#0" />
-            <element signature="e#28503#28566#0" />
-            <element signature="e#28861#28964#0" />
-            <element signature="e#29082#29699#0" />
-            <element signature="e#29082#29140#0" />
-            <element signature="e#29280#29389#0" />
-            <element signature="e#29463#29685#0" />
-            <element signature="e#30058#30920#0" />
-            <element signature="e#30058#30140#1" />
-            <element signature="e#30354#30750#0" />
-            <element signature="e#30967#31501#0" />
-            <element signature="e#30967#31050#1" />
-            <element signature="e#31574#31777#0" />
-            <element signature="e#31831#31998#0" />
-            <element signature="e#31859#31996#0" />
-            <element signature="e#32061#32433#0" />
-            <element signature="e#32068#32433#0" />
-            <element signature="e#32126#32422#0" />
-            <element signature="e#32152#32247#0" />
-            <element signature="e#32277#32372#0" />
-            <element signature="e#32475#32592#0" />
-            <element signature="e#32482#32592#0" />
-            <element signature="e#32625#32752#0" />
-            <element signature="e#32801#33817#0" />
-            <element signature="e#33002#33335#0" />
-            <element signature="e#33399#33795#0" />
-            <element signature="e#33880#34672#0" />
-            <element signature="e#33893#34206#0" />
-            <element signature="e#33907#34196#0" />
-            <element signature="e#34123#34181#0" />
-            <element signature="e#34270#34646#0" />
-            <element signature="e#34305#34632#0" />
-            <element signature="e#34547#34613#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="67" column="27" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#1708#2685#0" />
-            <element signature="e#2721#3713#0" />
-            <element signature="e#3770#4082#0" />
-            <element signature="e#4128#4728#0" />
-            <element signature="e#4776#4977#0" />
-            <element signature="e#5028#5531#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/authentications.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="510" selection-start-line="510" selection-end-line="510" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="291" column="4" lean-forward="true" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/utils/serializer_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="577" column="22" selection-start-line="577" selection-start-column="22" selection-end-line="577" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keys/alipay_public_key.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="116" selection-start-line="1" selection-start-column="116" selection-end-line="1" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keys/app_private_key.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/meituan/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/4hHz2GcgHJXh9t9AgptyTL.jpg" />
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/alipay/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtserver/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervisor.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/contenttypes/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
-          <folding>
-            <element signature="e#823#873#0" />
-            <element signature="e#913#2026#0" />
-            <element signature="e#1045#1324#0" />
-            <element signature="e#1367#1415#0" />
-            <element signature="e#1452#2026#0" />
-            <element signature="e#1719#1791#0" />
-            <element signature="e#2065#3003#0" />
-            <element signature="e#2099#2188#0" />
-            <element signature="e#2226#3003#0" />
-            <element signature="e#2320#2883#0" />
-            <element signature="e#2408#2520#0" />
-            <element signature="e#2557#2707#0" />
-            <element signature="e#3057#3101#0" />
-            <element signature="e#3235#3371#0" />
-            <element signature="e#3373#3398#0" />
-            <element signature="e#3485#3949#0" />
-            <element signature="e#3774#3949#0" />
-            <element signature="e#4003#4342#0" />
-            <element signature="e#4089#4107#0" />
-            <element signature="e#4393#5365#0" />
-            <element signature="e#4534#4574#0" />
-            <element signature="e#4626#4786#0" />
-            <element signature="e#4838#4976#0" />
-            <element signature="e#5111#5365#0" />
-            <element signature="e#5403#7703#0" />
-            <element signature="e#5435#7703#0" />
-            <element signature="e#5547#7589#0" />
-            <element signature="e#5931#5990#0" />
-            <element signature="e#6814#6828#0" />
-            <element signature="e#7750#9016#0" />
-            <element signature="e#7794#7814#0" />
-            <element signature="e#7864#9016#0" />
-            <element signature="e#8693#8916#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/meituan/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/permissions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/rest_framework/authtoken/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/management/commands/initgroup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#201#864#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/django_env/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="203" column="6" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#811#862#0" />
-            <element signature="e#1736#1742#0" />
-            <element signature="e#3015#3872#0" />
-            <element signature="e#3451#3731#0" />
-            <element signature="e#4038#4180#0" />
-            <element signature="e#4062#4586#0" />
-            <element signature="e#4094#4211#0" />
-            <element signature="e#4426#4485#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mtauth/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/h5/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtserver/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret column="943" selection-start-column="943" selection-end-column="943" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret column="1025" lean-forward="true" selection-start-column="1025" selection-end-column="1025" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1595579039005">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1595579039005" />
+    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1595579039005">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1595579039005" />
+    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1595579039003">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1595579039003" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1595579039005">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1595579039005" />
+    <state x="346" y="55" width="672" height="678" key="search.everywhere.popup" timestamp="1595563801665">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="346" y="55" width="672" height="678" key="search.everywhere.popup/0.0.1366.734@0.0.1366.734" timestamp="1595563801665" />
   </component>
 </project>
