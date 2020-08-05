@@ -30,7 +30,6 @@ User = get_user_model()
 class BaseView(object):
     permission_classes = [permissions.IsAuthenticated]
 
-
 class SMSCodeView(views.APIView):
 
     # throttle_classes = [AnonRateThrottle]
@@ -61,7 +60,6 @@ class SMSCodeView(views.APIView):
         # else:
         #     return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-
 class LoginView(views.APIView):
 
     def generic_number(self):
@@ -91,11 +89,9 @@ class LogoutView(views.APIView):
         request.session.flush()
         return Response()
 
-
 class MerchantPagination(PageNumberPagination):
     page_query_params = 'page'
     page_size = 8
-
 
 class MerchantViewSet(viewsets.GenericViewSet,
                       mixins.ListModelMixin,
@@ -103,7 +99,6 @@ class MerchantViewSet(viewsets.GenericViewSet,
     queryset = models.Merchant.objects.all()
     serializer_class = serializers.MerchantSerializer
     pagination_class = MerchantPagination
-
 
 class CategoryViewSet(viewsets.GenericViewSet):
     queryset = models.GoodsCategory.objects.all()
@@ -116,7 +111,6 @@ class CategoryViewSet(viewsets.GenericViewSet):
         serializer = self.get_serializer(instance=queryset,many=True)
         return Response(data=serializer.data)
 
-
 class MerchantSearchView(generics.ListAPIView):
 
     # 继承SearchFilter，修改搜索参数
@@ -127,7 +121,6 @@ class MerchantSearchView(generics.ListAPIView):
     serializer_class = serializers.MerchantSerializer
     filter_backends = [MerchantSearchFilter]
     search_fields = ['name','categories__name','categories__goods_list__name']      # 过滤的字段
-
 
 class AddressViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.AddressSerializer
@@ -235,7 +228,6 @@ class CreateOrderView(views.APIView):
             return Response({'pay_url':pay_url})
         else:
             return Response({'message':dict(serializer.errors)},status=status.HTTP_400_BAD_REQUEST)
-
 
 class AlipayCallbackView(views.APIView):
 

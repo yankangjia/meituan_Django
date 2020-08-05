@@ -13,7 +13,7 @@ class LoginSerializer(serializers.Serializer):
         telephone = attrs.get('telephone')
         smscode = attrs.get('smscode')
         cached_code = cache.get(telephone)
-        print('cached_code: ' + cached_code)
+        print(cached_code)
         if cached_code != smscode:
             raise serializers.ValidationError('验证码错误')
         return attrs
