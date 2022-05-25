@@ -20,7 +20,7 @@ mysqlclient==1.4.4
 Pillow==6.2.0
 pycparser==2.19
 pycryptodomex==3.9.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMySQL==0.9.3
 pyOpenSSL==19.1.0
 python-alipay-sdk==2.0.1
